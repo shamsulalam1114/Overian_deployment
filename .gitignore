@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Streamlit local secrets (never commit real secrets)
+.streamlit/secrets.toml
+
+# App temporary outputs
+_tmp_orig.png
+_tmp_cam.png
+
+# Large local model checkpoint (host remotely for Streamlit Cloud)
+best_model_fold5.pth
